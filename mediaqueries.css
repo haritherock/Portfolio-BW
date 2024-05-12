@@ -1,0 +1,49 @@
+@media screen and (max-width:1100px) {
+    #profile-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    a{
+        font-size: 1.5rem;
+    }
+    .about-subcontainer{
+        display: flex;
+        position: relative;
+        top: 15rem;
+        flex-wrap: wrap;
+    }
+    .aboutus-pic img{
+        position: relative;
+        left: 25rem;
+        bottom: 15rem;
+    }
+    .experience-group{
+        position: relative;
+        left: 15rem;
+    }
+    .summary{
+        width: 1000px;
+        position: relative;
+        left: 4rem;
+    }
+    #profile-section{
+        height: 119vh;
+    }
+    .about-exp-edu-container {
+        position: relative;
+        bottom: 18rem;
+    }
+    .exp-container-group{
+        position: relative;
+        left: 20rem;
+        flex-basis: 25%;
+        flex-wrap: wrap;
+    }
+    .project-group{
+        flex-basis: 25%;
+        flex-wrap: wrap;
+    }
+}
